@@ -6,7 +6,7 @@ const resultDiv = document.getElementById('result');
 submitBtn.addEventListener('click', () => {
   const text = textInput.value.trim();
   if (!text) {
-    alert('Please enter some text!');
+    alert('red,red,red, apple, pear, blue, apple, apple, pear, blue, blue, blue');
     return;
   }
 
